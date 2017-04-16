@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Diasoft</title>
+</head>
+<body>
+    <div>
+        <!--2 задание-->
+        <form id="person_form" action="#" method="post">
+            <input name="name" type="text" placeholder="Имя">
+            <input name="surname" type="text" placeholder="Фамилия">
+            <input name="second_name" type="text" placeholder="Отчество">
+            <input type="submit">
+        </form>
+    </div>
+    <hr>
+    <div>
+        <!--3 задание-->
+        <table id="date_table"></table>
+    </div>
+    <hr>
+    <div>
+        <!--4 задание-->
+        <form id="lender_form" action="#" method="post">
+            <input name="name" type="text" placeholder="Имя">
+            <input name="surname" type="text" placeholder="Фамилия">
+            <input name="second_name" type="text" placeholder="Отчество">
+            <label for="married">
+                <input type="checkbox" id="married" name="married">
+            </label>
+            <div id="partner_block">
+                <input hidden name="partner_name" type="text" placeholder="Имя супруга">
+                <input hidden name="partner_surname" type="text" placeholder="Фамилия супруга">
+                <input hidden name="partner_second_name" type="text" placeholder="Отчество супруга">
+            </div>
+            <input type="submit">
+        </form>
+    </div>
+    <hr>
+    <div>
+        <!--5 задание-->
+        <form action="#" id="date_form" method="post">
+            <input type="date" name="birthday">
+            <input type="submit">
+        </form>
+    </div>
+    <hr>
+    <div>
+        <!--6 задание, js не нужен-->
+        <form action="#" id="credit_form" method="post">
+            <input type="txt" name="credit_card" pattern="^\d{2}-\d{3}-\d-\d{4}$" placeholder="88-888-8-8888" required>
+            <input type="submit">
+        </form>
+    </div>
+</body>
+<script src="js/2.js"></script>
+<script src="js/3.js"></script>
+<script src="js/4.js"></script>
+<script src="js/5.js"></script>
+</html>
